@@ -6,9 +6,9 @@
 #### Display Screen
 ##### The calculator has a large display screen at the top where entered mathematical expressions and calculation results are visible. 
 #### Functional Buttons
-##### - CE: Clears the last entered data.
-##### - ^: Exponentiation.
-##### - √: Square root.
+- CE: Clears the last entered data.
+- ^: Exponentiation.
+- √: Square root.
 #### Basic Mathematical Operation Buttons
 ##### - C: Clears all entered data.
 ##### - (): Parentheses for grouping operations.
