@@ -10,9 +10,12 @@ public class PostfixConverter {
         Stack<String> operatorStack = new Stack<>();
         Queue<String> outputQueue = new LinkedList<>();
 
+<<<<<<< HEAD
         // Wyrażenie regularne do dopasowania liczb, operatorów i nawiasów
         //Pattern pattern = Pattern.compile("\\d+\\.\\d+|\\d+|\\+|\\-|\\X|\\/|\\^|\\%|\\(|\\)");
 
+=======
+>>>>>>> dce169a (Initial Commit)
         Pattern pattern = Pattern.compile("\\d+(\\.\\d+)?|\\+|\\-|\\X|\\/|\\^|\\%||\\√|\\(|\\)|(?<![\\d.])-");
 
 

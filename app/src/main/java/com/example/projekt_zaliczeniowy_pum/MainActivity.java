@@ -3,11 +3,25 @@ package com.example.projekt_zaliczeniowy_pum;
 import static com.example.projekt_zaliczeniowy_pum.RPNCalculator.calculateRPN;
 
 import androidx.appcompat.app.AppCompatActivity;
+<<<<<<< HEAD
+=======
+
+import android.content.Intent;
+import android.content.SharedPreferences;
+>>>>>>> dce169a (Initial Commit)
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+<<<<<<< HEAD
+=======
+import java.lang.reflect.Type;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+>>>>>>> dce169a (Initial Commit)
 import java.util.Stack;
 
 public class MainActivity extends AppCompatActivity {
@@ -19,7 +33,40 @@ public class MainActivity extends AppCompatActivity {
         TextView display = findViewById(R.id.display);
         display.setText(expression.toString());
     }
+<<<<<<< HEAD
 
+=======
+    private void saveResultToHistory(String result) {
+        SharedPreferences prefs = getSharedPreferences("CalculatorHistory", MODE_PRIVATE);
+        SharedPreferences.Editor editor = prefs.edit();
+
+        String history = prefs.getString("history", "");
+        String[] historyArray = history.split(";");
+        List<String> historyList = new ArrayList<>(Arrays.asList(historyArray));
+
+        if (historyList.size() == 1 && historyList.get(0).isEmpty()) {
+            historyList.clear();
+        }
+
+        historyList.add(0, result);
+        if (historyList.size() > 20) {
+            historyList.remove(historyList.size() - 1);
+        }
+
+        StringBuilder sb = new StringBuilder();
+        for (String entry : historyList) {
+            sb.append(entry).append(";");
+        }
+
+        editor.putString("history", sb.toString());
+        editor.apply();
+    }
+
+    private void openHistoryActivity() {
+        Intent intent = new Intent(this, HistoriaActivity.class);
+        startActivity(intent);
+    }
+>>>>>>> dce169a (Initial Commit)
 
     private void role_number(String buttonText)
     {
@@ -55,7 +102,11 @@ public class MainActivity extends AppCompatActivity {
                 findViewById(R.id.button_procet), findViewById(R.id.button_add_minus),
                 findViewById(R.id.button_CE), findViewById(R.id.button_C),
                 findViewById(R.id.button_bracket), findViewById(R.id.button_power),
+<<<<<<< HEAD
                 findViewById(R.id.button_sqrt)
+=======
+                findViewById(R.id.button_sqrt),findViewById(R.id.button_history)
+>>>>>>> dce169a (Initial Commit)
         };
 
         for (Button button : buttons) {
@@ -66,6 +117,18 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
         }
+<<<<<<< HEAD
+=======
+
+
+        Button historyButton = findViewById(R.id.button_history);
+        historyButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openHistoryActivity();
+            }
+        });
+>>>>>>> dce169a (Initial Commit)
     }
     private void checkAndAddClosingBracket() {
         int openingBracketsCount = 0;
@@ -397,6 +460,10 @@ public class MainActivity extends AppCompatActivity {
                     expression.setLength(0);
                     expression.append("Error");
                 } else {
+<<<<<<< HEAD
+=======
+                    saveResultToHistory(expression.toString() + " = " + result);
+>>>>>>> dce169a (Initial Commit)
                     expression.setLength(0);
                     expression.append(result);
                 }
