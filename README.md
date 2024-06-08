@@ -1,6 +1,6 @@
 # Calculator 
 
-| ![Zrzut ekranu 1](https://github.com/Patrykus9371/Android_Studio_Project/assets/59690880/215058b1-f7df-41a0-ba4a-bdc5a8ed7437) | ![Zrzut ekranu 2](https://github.com/Patrykus9371/Android_Studio_Project/assets/59690880/db923ea2-f18b-4a4e-a9b4-ad26f8812228) |  |![Zrzut ekranu 2024-06-08 2025002356](https://github.com/Patrykus9371/Android_Studio_Project/assets/59690880/f43d59f9-a380-486e-95ff-8b26d62096d0) |
+| ![Zrzut ekranu 1](https://github.com/Patrykus9371/Android_Studio_Project/assets/59690880/215058b1-f7df-41a0-ba4a-bdc5a8ed7437) | ![Zrzut ekranu 2](https://github.com/Patrykus9371/Android_Studio_Project/assets/59690880/db923ea2-f18b-4a4e-a9b4-ad26f8812228) |  |![Zrzut ekranu 2024-06-08 2025002356(https://github.com/Patrykus9371/Android_Studio_Project/assets/59690880/f43d59f9-a380-486e-95ff-8b26d62096d0) |
 
 |---|---|---|
 
