@@ -1,10 +1,9 @@
 # Calcultator 
 <table>
  <tr>
-<td><img ![Zrzut ekranu 2024-06-08 2011402](https://github.com/Patrykus9371/Android_Studio_Project/assets/59690880/db923ea2-f18b-4a4e-a9b4-ad26f8812228) ></td>
-<td><img![Zrzut ekranu 2024-06-08 200441](https://github.com/Patrykus9371/Android_Studio_Project/assets/59690880/215058b1-f7df-41a0-ba4a-bdc5a8ed7437) ></td>
- </tr>
-</table>
+![Zrzut ekranu 2024-06-08 2011402](https://github.com/Patrykus9371/Android_Studio_Project/assets/59690880/db923ea2-f18b-4a4e-a9b4-ad26f8812228) 
+![Zrzut ekranu 2024-06-08 200441](https://github.com/Patrykus9371/Android_Studio_Project/assets/59690880/215058b1-f7df-41a0-ba4a-bdc5a8ed7437)
+
 
 ## Calculator Description
 ### Interface Appearance
