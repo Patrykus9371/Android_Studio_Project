@@ -1,7 +1,6 @@
 # Calculator 
 
 | ![Zrzut ekranu 1](https://github.com/Patrykus9371/Android_Studio_Project/assets/59690880/215058b1-f7df-41a0-ba4a-bdc5a8ed7437) | ![Zrzut ekranu 2](https://github.com/Patrykus9371/Android_Studio_Project/assets/59690880/db923ea2-f18b-4a4e-a9b4-ad26f8812228) |
-|---|---|
 
 ## Calculator Description
 ### Interface Appearance
